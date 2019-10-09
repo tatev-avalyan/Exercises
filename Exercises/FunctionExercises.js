@@ -55,16 +55,19 @@ function sortString(str) {                 //ex4
 
 function longestWord(str) {                  //ex6
     let str1 = str.split(' ')
-   let longest=str1.reduce(function(a,b){
-       if(a.length>b.length){
-           return a
-       }else{
-           return b
-       }
-   })
-   return longest
+    let longest = str1.reduce(function (a, b) {
+        if (a.length > b.length) {
+            return a
+        } else {
+            return b
+        }
+    })
+    return longest
 }
 
+function typeOfArgument(argument) {              //ex9
+    return typeof argument
+}
 
 
 
@@ -73,12 +76,15 @@ function longestWord(str) {                  //ex6
 // let pal = isPalindrome("madam")
 // let sortedString = sortString("dgaghrthgdc")
 // const words = longestWord('Web Development Tutorial')
+// const arg= typeOfArgument([5,7,0,3])
+
+
 
 // console.warn(res)
 // console.log(pal)
 // console.log(sortedString)
 // console.log(words)
-
+// console.log(arg)
 
 
 
