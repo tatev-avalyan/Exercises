@@ -20,9 +20,9 @@ let library = [
         readingStatus: false
     }];
 
-   let arr1= [6,4,0, 3,-2,1]
+    let arr1= [6,4,0, 3,-2,1]
 
-   var library1 = [ 
+    let library1 = [ 
     {
         title:  'The Road Ahead',
         author: 'Bill Gates',
